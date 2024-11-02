@@ -1,0 +1,28 @@
+<html>
+  <head>
+   <title>OMER_ELECTRONIC</title>
+  </head>
+   <body>
+    <div align="center"> <h1>ÖMER TUNÇ</h1></div>
+    <img src="resim4.jpg" width="300" height="250" alt="Örnek Resim"/ img>
+    <p>Ben Ömer. 24 yaşındayım. Van Yüzüncıyıl Üniversitesi Elektronik bölümü mezunuyum.</p>
+    <p> Web geliştirme, siber güvenlik, roketlerle ilgilenmeyi seviyorum.</p>
+    <h2>HOBİLERİM</h2>
+       <ul>
+            <li>Tenis Oynama</li>
+            <li>Sürat Yapmak</li>
+            <li>Araba kullanmak</li>
+            <li>Koşu Yapmak</li>
+       </ul>
+   <h2>İLETİŞİM BİLGİLERİ</h2>
+       <ul>
+            <li><a href="https://www.linkedin.com/in/%C3%B6mer-tun%C3%A7-584015246/">Linkedin</a></li>
+            <li><a href="https://github.com/Bager-s">Github</a></li>
+            <li><a href="mailto:cefantunc240@gmail.com">Gmail</a></li>
+       </ul>
+   <h2>İletişim Formu</h2>
+            <form action="/submit" method="post"> <label for="ad">Ad:</label>
+                                                  <br> <input type="text" id="ad" name="ad"><br><br>
+                                                  <label for="soyad">Soyad:</label><br> <input type="text" id="soyad" name="soyad"><br<br>                   						  <label for="mesaj">Mesaj:</label><br> <textarea id="mesaj" name="mesaj" rows="4" cols="50"></textarea><br><br> <input type="submit" value="Gönder"> </form>
+   </body>
+ </html>
